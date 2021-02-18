@@ -9,8 +9,8 @@
 <body>
     <?php
         $host = 'db';
-        $user = 'test_user';
-        $passwd = 'test_password';
+        $user = 'root';
+        $passwd = 'test_root_password';
         $db = 'test_db';
 
         $conn = new mysqli($host, $user, $passwd, $db);
